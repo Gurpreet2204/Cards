@@ -1,0 +1,47 @@
+[ 
+	{"id": 1,
+"name": "Charles Darwin",
+"address": "123 Main St",
+"email": "charlesdarwin@example.com",
+"phone": "123-456-7890",
+"photo": "https://picsum.photos/200",
+"isActive": true,
+"lat": "38.48422",
+"lng": "10.60092",
+"description": "dsfgbn",
+"title": "xczx"
+},
+{
+"id": 2,
+"name": "Wade Warren",
+"address": "456 main St",
+"email": "wadewarren@example.com",
+"phone": "987-654-3210",
+"photo": "https://picsum.photos/200",
+"isActive": true,
+"lat": "20.64215",
+"lng": "138.62527"
+},
+{
+"id": 3,
+"name": "Jane Copper",
+"address": "789 main St",
+"email": "janecopper@example.com",
+"phone": "654-3210-987",
+"photo": "https://picsum.photos/200",
+"isActive": false,
+"lat": "34.0522",
+"lng": "-118.2437"
+},
+{
+"id": 4,
+"name": "Leslie Alexander",
+"address": "012 main St",
+"email": "lesliealexander@example.com",
+"phone": "7580-321-9353",
+"photo": "https://picsum.photos/200",
+"isActive": true,
+"lat": "49.71135",
+"lng": "71.97569"
+}
+]

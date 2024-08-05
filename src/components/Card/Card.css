@@ -1,0 +1,121 @@
+
+.parent-card {
+	display: grid;
+	justify-content: center;
+  }
+  
+  .card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 20px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	margin-bottom: 16px;
+	padding-top: 2px; /
+  }
+  
+  .card-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px;
+  }
+  
+  .card-left {
+	display: flex;
+	align-items: center;
+  }
+  
+  .avatar {
+	width: 64px;
+	height: 64px;
+	border-radius: 25%;
+	margin-right: 16px;
+  }
+  
+  .card-info {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .name {
+	font-size: 1.125rem;
+	font-weight: 600;
+	margin-bottom: 8px;
+  }
+  
+  .address,
+  .email,
+  .phone {
+	font-size: 0.875rem;
+	color: #000000;
+	margin: 0;
+	 }
+	 .icon{
+		vertical-align: middle;
+		margin-right: 8px;
+	 }
+  
+  .card-tags {
+	display: flex;
+	justify-content: left;
+	gap: 8px;
+	flex-wrap: wrap;
+	padding: 0 16px 16px 16px;
+  }
+  
+  .tag {
+	padding: 8px 16px;
+	margin: 0 4px;
+	font-size: 0.75rem;
+	color: #000000;
+	border-radius: 12px;
+	background-color: #c4e4ef;
+  }
+  
+  .buttons-container {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	display: flex;
+	gap: 8px;
+	margin-top:16px;
+  }
+  
+  .delete-button,
+  .edit-button {
+	padding: 8px;
+	background-color: #fee2e2;
+	color: #ef4444;
+	border-radius: 25%;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .edit-button {
+	background-color: #f0f0f0;
+	color: #1d4ed8;
+  }
+  
+  .status {
+    position: absolute;
+    bottom:1px;
+    right: 13px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.status.active {
+    background-color: green;
+}
+
+.status.inactive {
+    background-color: red;
+}
+.avatar-container{
+	position: relative;
+}
